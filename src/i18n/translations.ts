@@ -69,7 +69,7 @@ export const messages: Record<Locale, Messages> = {
       name: "Chung Ho Man (Owen)",
       role: "Computer Science & Economics · AI & trading",
       tagline:
-        "Dual-degree student (BEng & BBA) at HKUST with an extended major in Artificial Intelligence; passionate about ML, NLP, and real-world deployment.",
+        "Dual-degree student (BEng and BBA) at HKUST with an extended major in Artificial Intelligence, focused on machine learning, NLP, and real-world deployment.",
       photoAlt: "Owen Chung professional photo",
     },
     contact: {
@@ -85,7 +85,7 @@ export const messages: Record<Locale, Messages> = {
     about: {
       heading: "About",
       body:
-        "I am a Computer Science and Economics student with a strong interest in AI and trading. My work spans RAG systems, ASR/TTS integration, quantitative development, and research on LLM applications in media and finance.",
+        "I study Computer Science and Economics, with a focus on AI and trading. I build RAG systems, integrate ASR and TTS, develop quantitative strategies, and research how large language models apply to media and finance.",
     },
     education: {
       heading: "Education",
@@ -96,23 +96,23 @@ export const messages: Record<Locale, Messages> = {
           period: "Sep 2021 – Jun 2027",
           lines: [
             "Computer Science and Economics, extended major in Artificial Intelligence; minor in Mathematics and Physics (expected First Class Honours).",
-            "4 Dean's List.",
+            "Four-time Dean's List.",
           ],
         },
         {
-          title: "Semester exchange — Tsinghua University",
+          title: "Semester Exchange — Tsinghua University",
           period: "Sep 2025 – Jan 2026",
           lines: ["Major in Computer Science."],
         },
         {
-          title: "Semester exchange — University of Wisconsin–Madison",
+          title: "Semester Exchange — University of Wisconsin–Madison",
           period: "Jan 2025 – May 2025",
           lines: ["Computer Science and Economics."],
         },
         {
           title: "Charles University — Central and Eastern European Studies (ECES)",
           period: "Summer 2024",
-          lines: ["Summer exchange programme."],
+          lines: ["Summer Exchange Programme."],
         },
       ],
     },
@@ -121,11 +121,11 @@ export const messages: Record<Locale, Messages> = {
       items: [
         {
           org: "Fruitful",
-          title: "Cofounder and COO",
+          title: "Co-Founder and COO",
           period: "Apr 2025 – Present",
           lines: [
-            "Facilitated 110k+ seed funding for a vegan leather startup, and organized workshops for 60+ participants that generated revenue.",
-            "Seeking factory partnerships to streamline production of vegan leather products and reduce cost.",
+            "Raised $110k+ in seed funding for a vegan-leather startup and ran revenue-generating workshops for 60+ participants.",
+            "Pursuing factory partnerships to streamline vegan-leather production and cut costs.",
           ],
         },
         {
@@ -133,8 +133,8 @@ export const messages: Record<Locale, Messages> = {
           title: "Summer Intern, Non-Property Investment Portfolio Division",
           period: "Jul 2025 – Sep 2025",
           lines: [
-            "Led design and deployment of AI-driven automation across marketing, merchandising, and HR workflows, cutting related process time by ~85%.",
-            "Delivered end-to-end automation tools (marketing template automation, price search systems), improving cross-functional collaboration and operational efficiency.",
+            "Led the design and deployment of AI automation across marketing, merchandising, and HR, cutting process time by about 85%.",
+            "Delivered end-to-end tools for marketing templates and price search, improving collaboration and efficiency across teams.",
           ],
         },
         {
@@ -142,8 +142,8 @@ export const messages: Record<Locale, Messages> = {
           title: "Machine Learning Engineer Intern",
           period: "May 2025 – Jul 2025",
           lines: [
-            "Developed and deployed a RAG-based monitoring system for QA of the AI virtual ambassador “Tracy” in MTR stations (sentiment, intent, protocol adherence).",
-            "Integrated and fine-tuned ASR/TTS models; improved transcription accuracy by ~20%.",
+            "Built and deployed a RAG monitoring system to quality-check the AI virtual ambassador “Tracy” in MTR stations, covering sentiment, intent, and protocol adherence.",
+            "Integrated and fine-tuned ASR and TTS models, lifting transcription accuracy by about 20%.",
           ],
         },
         {
@@ -151,8 +151,8 @@ export const messages: Record<Locale, Messages> = {
           title: "Quantitative Developer Intern",
           period: "Sep 2023 – Dec 2023",
           lines: [
-            "Built and back-tested trading bots for DeFi protocols using Node.js and SQL.",
-            "Designed strategies across 3 protocols and researched 10+ DeFi projects for arbitrage opportunities.",
+            "Built and back-tested DeFi trading bots in Node.js and SQL.",
+            "Designed strategies across 3 protocols and researched 10+ DeFi projects for arbitrage.",
           ],
         },
         {
@@ -160,8 +160,8 @@ export const messages: Record<Locale, Messages> = {
           title: "Investment Analyst Intern",
           period: "May 2023 – Aug 2023",
           lines: [
-            "Financial analysis, models, and DD memos for 10+ Series A–C deals.",
-            "Custom ESG KPIs and pitch materials for a green fund; supported IR presentations.",
+            "Prepared financial analysis, models, and due-diligence memos for 10+ Series A–C deals.",
+            "Designed custom ESG KPIs and pitch materials for a green fund, and supported investor presentations.",
           ],
         },
         {
@@ -169,8 +169,8 @@ export const messages: Record<Locale, Messages> = {
           title: "Corporate Actions Intern",
           period: "Jun 2022 – Aug 2022",
           lines: [
-            "Middle Office BAU: trade failures, confirmations.",
-            "Risk dashboard and weekly forecast in Python/VBA for the trading desk.",
+            "Handled middle-office BAU, including trade failures and confirmations.",
+            "Built a Python and VBA risk dashboard and weekly forecast for the trading desk.",
           ],
         },
       ],
@@ -179,39 +179,39 @@ export const messages: Record<Locale, Messages> = {
       heading: "Project experience",
       items: [
         {
-          title: "APRU × Google Tech Policy Hackathon — 2nd runner-up (Bangkok)",
+          title: "APRU × Google Tech Policy Hackathon — 2nd Runner-up (Bangkok)",
           period: "Jul 2025 – Oct 2025",
           lines: [
-            "ML-based credit rating platform using alternative data for explainable scores for Indonesian farmers.",
+            "Built an ML credit-rating platform that turns alternative data into explainable scores for Indonesian farmers.",
           ],
         },
         {
-          title: "Viu International — Meta LLM digital transformation (student consultant)",
+          title: "Viu International — Meta LLM Digital Transformation (Student Consultant)",
           period: "Sep 2024 – Dec 2024",
           lines: [
-            "Llama 3.6 notification & thumbnail chatbot in a team of six.",
-            "Deployed on Google Cloud; A/B testing for UI variants.",
+            "Built the core of a Llama 3.6 chatbot for notifications and thumbnails, in a team of six.",
+            "Deployed it on Google Cloud and ran A/B tests on UI variants.",
           ],
         },
         {
-          title: "CBSA–Wisers Data Analytics Challenge — 2nd runner-up",
+          title: "CBSA–Wisers Data Analytics Challenge — 2nd Runner-up",
           period: "Jan 2023 – Feb 2023",
           lines: [
-            "Climate and flood risk vs housing prices; materiality analysis in Python and R.",
+            "Analysed how climate and flood risk relate to housing prices, with a materiality study in Python and R.",
           ],
         },
         {
-          title: "UBS — Synapse Research (student consultant)",
+          title: "UBS — Synapse Research (Student Consultant)",
           period: "Dec 2022 – Jan 2023",
           lines: [
-            "Research on Northbound Stock Connect post-trade settlement; migration cost and churn estimates for UBS–HKEX Synapse integration.",
+            "Researched Northbound Stock Connect post-trade settlement and estimated migration cost and client churn for the UBS–HKEX Synapse integration.",
           ],
         },
         {
-          title: "Amplify Trading Global Markets Competition — finalist",
+          title: "Amplify Trading Global Markets Competition — Finalist",
           period: "Jan 2022 – Mar 2022",
           lines: [
-            "S&P 500 pitch and FX risk ideas; top ~25% P/L in trading simulation among 442 teams.",
+            "Pitched an S&P 500 view and FX risk ideas, finishing in the top 25% for profit and loss among 442 teams.",
           ],
         },
       ],
@@ -224,14 +224,14 @@ export const messages: Record<Locale, Messages> = {
           title: "Research Assistant",
           period: "Jun 2026 – Aug 2026",
           lines: [
-            "Conducted research on smart-contract verification using LLMs under the supervision of Prof. Martin Monperrus and his research team.",
-            "Identified 5+ security issues in existing blockchain implementations and communicated findings to developers for follow-up.",
+            "Researched LLM-based smart-contract verification under Prof. Martin Monperrus and his team.",
+            "Found 5+ security issues in existing blockchain implementations and reported them to the developers.",
           ],
         },
         {
           title: "FinThink — LLM-based multi-agent financial reasoning (UROP)",
           lines: [
-            "Multi-agent architecture for financial reasoning: cognitive chains, reusable memory, coordination, and market-aware analysis.",
+            "Designed a multi-agent system for financial reasoning, with cognitive chains, reusable memory, coordination, and market-aware analysis.",
           ],
         },
       ],
@@ -263,15 +263,15 @@ export const messages: Record<Locale, Messages> = {
           title: "Academic & Marketing Secretary — Marketing Students’ Society, HKUSTSU",
           period: "2022–2023",
           lines: [
-            "Vice-Chair, Joint University Outstanding Marketing Award.",
-            "Sponsorships with retail, hairstyling, and wholesale partners.",
+            "Served as Vice-Chair of the Joint University Outstanding Marketing Award.",
+            "Secured sponsorships from retail, hair-styling, and wholesale partners.",
           ],
         },
         {
-          title: "‘Be a Government Official for a Day’ job shadowing",
+          title: "‘Be a Government Official for a Day’ Job Shadowing",
           period: "Jul–Aug 2021",
           lines: [
-            "Shadowed the Secretary for Transport and Housing; presented to officials, educators, and press.",
+            "Shadowed the Secretary for Transport and Housing and presented to officials, educators, and the press.",
           ],
         },
       ],
@@ -321,7 +321,7 @@ export const messages: Record<Locale, Messages> = {
           period: "2021.9 – 2027.6",
           lines: [
             "人工智能（擴展主修），數學與物理（副修），預期一級榮譽。",
-            "4 次院長嘉許名單。",
+            "四度獲院長嘉許名單。",
             "國際交流：清華大學（計算機科學）、威斯康星大學麥迪遜分校（計算機科學與經濟學）學期交換。",
           ],
         },
@@ -345,7 +345,7 @@ export const messages: Record<Locale, Messages> = {
           period: "2025.7 – 2025.9",
           lines: [
             "主導設計並部署 AI 驅動自動化方案，覆蓋市場、商品及人力資源流程，將相關業務流程耗時減少約 85%。",
-            "交付端到端自動化工具（營銷模板自動化、價格搜索系統），提升跨部門協作與運營效率。",
+            "交付端到端自動化工具（營銷模板自動化、價格搜索系統），提升跨部門協作與營運效率。",
           ],
         },
         {
@@ -354,7 +354,7 @@ export const messages: Record<Locale, Messages> = {
           period: "2025.5 – 2025.7",
           lines: [
             "設計並部署基於 RAG 的呼叫監控工具，自動化質檢客服語音機器人通話，分析轉錄文本的情感及協議符合度。",
-            "集成並微調 ASR 與 TTS 模型，將語音轉錄準確率提升約 20%。",
+            "整合並微調 ASR 與 TTS 模型，將語音轉錄準確率提升約 20%。",
           ],
         },
         {
@@ -380,7 +380,7 @@ export const messages: Record<Locale, Messages> = {
           title: "企業行動實習生",
           period: "2022.6 – 2022.8",
           lines: [
-            "中台日常運營：交易失敗處理、確認書等。",
+            "中台日常營運：處理交易失敗與確認書。",
             "以 Python／VBA 為交易台構建風險儀表板與週報預測。",
           ],
         },
@@ -397,7 +397,7 @@ export const messages: Record<Locale, Messages> = {
           ],
         },
         {
-          title: "Viu 國際數字化轉型（基於 Meta LLM）— 學生顧問",
+          title: "Viu 國際數碼轉型（基於 Meta LLM）— 學生顧問",
           period: "2024.9 – 2024.12",
           lines: [
             "六人團隊中負責基於 Llama 3.6 的通知與縮略圖生成聊天機器人核心模塊。",
@@ -462,7 +462,7 @@ export const messages: Record<Locale, Messages> = {
         {
           label: "技術領域",
           value:
-            "機器學習／深度學習，自然語言處理（NLP），自動化流程開發，數據分析與可視化",
+            "機器學習／深度學習，自然語言處理（NLP），自動化流程開發，數據分析與視覺化",
         },
         {
           label: "工具與框架",
