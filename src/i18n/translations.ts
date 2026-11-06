@@ -95,7 +95,7 @@ export const messages: Record<Locale, Messages> = {
             "The Hong Kong University of Science and Technology — Dual Degree (BEng & BBA)",
           period: "Sep 2021 – Jun 2027",
           lines: [
-            "Computer Science and Economics, extended major in Artificial Intelligence; minor in Mathematics and Physics.",
+            "Computer Science and Economics, extended major in Artificial Intelligence; minor in Mathematics and Physics (expected First Class Honours).",
             "4 Dean's List.",
           ],
         },
@@ -320,7 +320,7 @@ export const messages: Record<Locale, Messages> = {
           title: "香港科技大學 — 計算機科學與經濟學（雙學位）",
           period: "2021.9 – 2027.6",
           lines: [
-            "人工智能（擴展主修），數學與物理（副修）。",
+            "人工智能（擴展主修），數學與物理（副修），預期一級榮譽。",
             "4 次院長嘉許名單。",
             "國際交流：清華大學（計算機科學）、威斯康星大學麥迪遜分校（計算機科學與經濟學）學期交換。",
           ],
