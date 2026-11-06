@@ -1,5 +1,5 @@
 import { type ReactNode } from "react";
-import { FileDown, Github, Linkedin, Mail, Phone } from "lucide-react";
+import { Github, Linkedin, Mail, Phone } from "lucide-react";
 import { useLanguage } from "./context/LanguageContext";
 import { LINKS, type BulletItem } from "./i18n/translations";
 
@@ -197,14 +197,6 @@ export default function App() {
               >
                 <Github className="h-4 w-4" />
                 {t.social.github}
-              </a>
-              <a
-                href={LINKS.cvPdf}
-                download
-                className="inline-flex items-center gap-2 rounded-full border border-ink/20 bg-white px-4 py-2 text-sm font-medium text-deep hover:bg-mist"
-              >
-                <FileDown className="h-4 w-4" />
-                {t.hero.downloadCv}
               </a>
             </div>
           </div>

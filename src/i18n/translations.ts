@@ -6,8 +6,6 @@ export const LINKS = {
     "https://www.linkedin.com/in/owen-chung-809218221/recent-activity/all/",
   github: "https://github.com/owenchung030915-hkust",
   email: "mailto:owenchung03@gmail.com",
-  /** Served from `public/cv.pdf` */
-  cvPdf: "/cv.pdf",
 } as const;
 
 export type BulletItem = {
@@ -36,7 +34,6 @@ export type Messages = {
     role: string;
     tagline: string;
     photoAlt: string;
-    downloadCv: string;
   };
   contact: { email: string; phone: string; phoneLabel: string };
   social: {
@@ -74,7 +71,6 @@ export const messages: Record<Locale, Messages> = {
       tagline:
         "Dual-degree student (BEng & BBA) at HKUST with an extended major in Artificial Intelligence; passionate about ML, NLP, and real-world deployment.",
       photoAlt: "Owen Chung professional photo",
-      downloadCv: "Download CV",
     },
     contact: {
       email: "owenchung03@gmail.com",
@@ -301,7 +297,6 @@ export const messages: Record<Locale, Messages> = {
       tagline:
         "香港科技大學計算機科學與經濟學雙學位，人工智能擴展主修；熱衷於機器學習、自然語言處理與落地應用。",
       photoAlt: "鍾灝文專業照片",
-      downloadCv: "下載履歷",
     },
     contact: {
       email: "owenchung03@gmail.com",
